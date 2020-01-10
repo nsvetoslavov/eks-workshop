@@ -9,3 +9,8 @@ to our account, we can delete the workspace we created:
 
 - Go to your [Cloud9 Environment](https://console.aws.amazon.com/cloud9/home)
 - Select the environment named **eksworkshop** and pick **delete**
+- Do not forget to delete:
+  - Security Groups
+  - Delete the Volumes
+  - Left the Stack empty
+  - IAM Roles
